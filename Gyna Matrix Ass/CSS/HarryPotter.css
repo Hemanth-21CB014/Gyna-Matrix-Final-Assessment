@@ -1,0 +1,64 @@
+.header img {
+    width: 190px;
+  }
+
+body{
+    background-color: rgba(237, 27, 27, 0.4);
+}
+
+.box{
+    box-sizing: border-box;
+    position: absolute;
+    left: 400px;
+    right: 400px;
+    top: 200px;
+    bottom: 25px;
+    background: #9C1801;
+    border: 1px solid #000000;
+    border-radius: 29px;
+    box-shadow: inset 1px 1px 15px 15px
+}
+
+.logo{
+    position: absolute;
+    justify-content: center;
+    left: 42.5%;
+    right: 35%;
+    top: 0%;
+    bottom: 60%;
+    background: url(/Images/House.png);
+    background-repeat:no-repeat;
+}  
+
+h1{
+    font-family: 'Pirata One';
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0px;
+    color: #DCDCDC;
+}
+
+.text{
+    font-style: wizard;
+    font-family: 'Pirata One';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #DCDCDC;
+}
+
+.img{
+    position: absolute;
+    left: 60.69%;
+    right: 8.46%;
+    top: 25.24%;
+    bottom: 35.56%;
+    background: url(/Images/Harry\ Photo.png);
+    filter: drop-shadow(4px 4px 30px rgba(0, 0, 0, 0.25));
+    border-radius: 21px;
+    background-repeat:no-repeat;
+    justify-self: center;
+}

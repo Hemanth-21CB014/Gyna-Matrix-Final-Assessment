@@ -1,0 +1,62 @@
+*{
+    font-family: Roboto;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+
+  @media only screen and (max-width:600px) {
+    
+  }
+  body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url(/Images/Login\ bg.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .header img {
+    width: 140px;
+  }
+  .header h1{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 64px;
+    margin-top: 212px;
+    margin-left: 365px;
+    color: #DCDCDC;
+  }
+  .f{
+    position: absolute;
+    margin-left: 300px;
+    
+  }
+  .f input{
+    padding: 15px 80px; 
+    border-radius: 46px;
+    width: 350px;
+    display: block;
+    background-color: transparent;
+    color: #DCDCDC;
+    border: rgb(229, 139, 3) solid 1px;
+  }
+
+  .f .placeholder{
+    background: linear-gradient(90.23deg, rgba(0, 0, 0, 0.61) 0.19%, rgba(0, 0, 0, 0.38) 102.56%);
+background-blend-mode: overlay;
+filter: blur(66.5px);
+border-radius: 46px;
+}
+
+
+#button{
+  padding: 15px 147px; 
+  border-radius: 46px;
+  background-color:#FFCD2D;
+  color: black;
+}
+#chk{
+margin-left: 100px;
+}
+
